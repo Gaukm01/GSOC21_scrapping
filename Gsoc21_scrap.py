@@ -40,4 +40,4 @@ for entry in soup.findAll('li', attrs={'class':'project-card'}):
 
 #Storing the data in the csv format
 df = pd.DataFrame({'Name':names, 'Project':projects, 'Organisation':organisations})
-df.to_csv('gsoc21.csv',index= False)
+df.to_csv('gsoc2021.csv',index= False)
